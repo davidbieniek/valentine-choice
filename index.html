@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Valentine?</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="src/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <img id="mainImage" src="src/1.jpg" alt="Will you be my valentine?"/>
+        <h1 id="pageTitle">Will you be my valentine?</h1>
+        <div class="buttons">
+            <button id="yesButton">Yes</button>
+            <button id="noButton">No</button>
+        </div>
+        <div id="loveCalculator">
+            <h2 id="pageTitleCalculator">Love Calculator</h2>
+            <input type="text" id="name1" placeholder="Your Name">
+            <input type="text" id="name2" placeholder="Partner's Name"><br>
+            <button onclick="calculateLove()">Calculate</button>
+            <div id="loveScore"></div>
+        </div>
+        <div id="valentinesCountdown">Time until Valentine's Day:<br><span id="countdown"></span></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
